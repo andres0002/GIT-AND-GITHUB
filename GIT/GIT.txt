@@ -1,1 +1,20 @@
-Min 00:03:01 -> In Process.
+Min 00:35:21 -> In Process.
+
+Configuraciones basicas:
+- Configurar el user.name.
+comman -> git config --global user.name "name"
+- Configurar el user.email.
+comman -> git config --global user.email "email"
+- Configurar el autocrlf.
+comman -> git config --global core.autocrlf true // para windows.
+comman -> git config --global core.autocrlf input // para linux, etc.
+- Inicializar git.
+comman -> git init
+- Subir al area de preparación.
+comman -> git add .
+- Info sobre el area de trabajo y el area de preparación.
+comman -> git status
+- Para remover file del area de preparación al area de trabajo.
+comman -> git rm --cached <file>
+- Subir al repositorio.
+comman -> git commit -m "description"
