@@ -20,3 +20,5 @@ comman -> git status
 comman -> git rm --cached <file>
 - Subir al repositorio.
 comman -> git commit -m "description"
+- Subir al servidor si ya se tienen los files en el repositorio.
+comman -> git push -u origin master
