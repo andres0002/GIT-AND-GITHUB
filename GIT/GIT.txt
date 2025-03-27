@@ -1,4 +1,4 @@
-Min 00:54:00 -> In Process.
+Min 01:06:00 -> In Process.
 
 Configuraciones basicas:
 - Configurar el user.name.
@@ -38,3 +38,16 @@ comman -> git mv "file.ext (current name)" "file.ext (new name)"
 comman -> git status -s
 - Para ver las diferencias entre versiones.
 comman -> git diff --staged
+- Para ver data de los commits.
+comman -> git log
+- Para ver data de los commits en line.
+comman -> git log --oneline
+- Para configurar que el commit en ves de mostrar 7 caracteres del indentificador
+muestre los deseados en el formato abreviado (git log --oneline).
+comman -> git config --global core.abbrev 40
+- Para comparar entre dos commits.
+comman -> git diff 2c701d3d15e90d9e4628d742ac03ad58a24d4237 9514b89beca3a1c54f6ad41db974e1607616aa8c
+- Para que muestre los nombres de los files modificados.
+comman -> git diff --name-only 2c701d3d15e90d9e4628d742ac03ad58a24d4237 9514b89beca3a1c54f6ad41db974e1607616aa8c
+- Para ver la diferencia entre lineas.
+comman -> git diff --word-diff 2c701d3d15e90d9e4628d742ac03ad58a24d4237 9514b89beca3a1c54f6ad41db974e1607616aa8c
