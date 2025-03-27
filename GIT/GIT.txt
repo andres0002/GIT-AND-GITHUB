@@ -54,3 +54,4 @@ comman -> git diff --word-diff "commit-1" "commit-2"
 - Para modificar description ultimo commit o agragar files hay que ponerlos en el
 area de preparación.
 comman -> git commit --amend.
+ 
