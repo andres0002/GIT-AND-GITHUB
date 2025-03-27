@@ -1,4 +1,4 @@
-Min 01:06:00 -> In Process.
+Min 01:25:00 -> In Process.
 
 Configuraciones basicas:
 - Configurar el user.name.
@@ -51,7 +51,16 @@ comman -> git diff "commit-1" "commit-2"
 comman -> git diff --name-only "commit-1" "commit-2"
 - Para ver la diferencia entre lineas.
 comman -> git diff --word-diff "commit-1" "commit-2"
-- Para modificar description ultimo commit o agragar files hay que ponerlos en el
+- Para modificar o remplazar ultimo commit o agragar files, hay que ponerlos en el
 area de preparación.
-comman -> git commit --amend.
+comman -> git commit --amend
+- Para modificar un commit que no sea el ultimo.
+comman -> git rebase -i head~3
+- Para recuperar los commits que se eliminaron al hacer el rebase los que seguian
+en la linea del tiempo hacia adelante.
+comman git rebase --continue
+- Para deshacer commit.
+comman -> git reset --soft "commit"
+- Para desahcer commit indicando cuantos commits atras.
+comman -> git reset --soft head~2
  
