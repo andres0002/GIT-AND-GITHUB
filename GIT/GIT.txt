@@ -22,3 +22,5 @@ comman -> git rm --cached <file>
 comman -> git commit -m "description"
 - Subir al servidor si ya se tienen los files en el repositorio.
 comman -> git push -u origin master
+- Para saltarse el "git add" y pasar directamente al "git commit".
+comman -> git commit -a
