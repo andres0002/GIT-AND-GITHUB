@@ -1,10 +1,12 @@
-Min 00:35:21 -> In Process.
+Min 00:43:00 -> In Process.
 
 Configuraciones basicas:
 - Configurar el user.name.
 comman -> git config --global user.name "name"
 - Configurar el user.email.
 comman -> git config --global user.email "email"
+- Para selecionar vsc como editor por defecto de git.
+comman -> git config --global core.editor "code --wait"
 - Configurar el autocrlf.
 comman -> git config --global core.autocrlf true // para windows.
 comman -> git config --global core.autocrlf input // para linux, etc.
