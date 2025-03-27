@@ -37,3 +37,4 @@ comman -> git mv "file.ext (current name)" "file.ext (new name)"
 - Info mas corta sobre el area de trabajo y el area de preparación.
 comman -> git status -s
 - Para ver las diferencias entre versiones.
+comman -> git diff --staged
