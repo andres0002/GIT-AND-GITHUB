@@ -1,4 +1,4 @@
-Min 00:43:00 -> In Process.
+Min 00:50:00 -> In Process.
 
 Configuraciones basicas:
 - Configurar el user.name.
