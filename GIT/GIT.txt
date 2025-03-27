@@ -46,8 +46,8 @@ comman -> git log --oneline
 muestre los deseados en el formato abreviado (git log --oneline).
 comman -> git config --global core.abbrev 40
 - Para comparar entre dos commits.
-comman -> git diff 2c701d3d15e90d9e4628d742ac03ad58a24d4237 9514b89beca3a1c54f6ad41db974e1607616aa8c
+comman -> git diff "commit-1" "commit-2"
 - Para que muestre los nombres de los files modificados.
-comman -> git diff --name-only 2c701d3d15e90d9e4628d742ac03ad58a24d4237 9514b89beca3a1c54f6ad41db974e1607616aa8c
+comman -> git diff --name-only "commit-1" "commit-2"
 - Para ver la diferencia entre lineas.
-comman -> git diff --word-diff 2c701d3d15e90d9e4628d742ac03ad58a24d4237 9514b89beca3a1c54f6ad41db974e1607616aa8c
+comman -> git diff --word-diff "commit-1" "commit-2"
