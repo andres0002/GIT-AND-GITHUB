@@ -24,3 +24,11 @@ comman -> git commit -m "description"
 comman -> git push -u origin master
 - Para saltarse el "git add" y pasar directamente al "git commit".
 comman -> git commit -a
+- Para restaurar un file del area de preparación al area de trabajo.
+comman -> git restore "file.ext"
+- Para volver al state del file en el ultimo commit subido, mientras no
+se allán subido los cambios al area de preparación (git add).
+comman -> git checkout "file.ext"
+- Para desacer cambios del area de preparación, vuelve al estado del
+ultimo commit subido.
+comman -> git reset --hard
