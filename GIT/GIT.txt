@@ -32,3 +32,7 @@ comman -> git checkout "file.ext"
 - Para desacer cambios del area de preparación, vuelve al estado del
 ultimo commit subido.
 comman -> git reset --hard
+- Para cambiar el name de un file.
+comman -> git mv "file.ext (current name)" "file.ext (new name)"
+- Info mas corta sobre el area de trabajo y el area de preparación.
+comman -> git status -s
