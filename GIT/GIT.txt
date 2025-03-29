@@ -1,15 +1,19 @@
-Min 01:25:00 -> In Process.
+Min 01:31:00 -> In Process.
 
-Configuraciones basicas:
+---------------------------------Configuraciones Basicas----------------------------
 - Configurar el user.name.
 comman -> git config --global user.name "name"
 - Configurar el user.email.
 comman -> git config --global user.email "email"
 - Para selecionar vsc como editor por defecto de git.
 comman -> git config --global core.editor "code --wait"
-- Configurar el autocrlf.
+- Configurar el autocrlf -> salto de linea.
 comman -> git config --global core.autocrlf true // para windows.
 comman -> git config --global core.autocrlf input // para linux, etc.
+- Para configurar que el commit en ves de mostrar 7 caracteres del indentificador
+muestre los deseados en el formato abreviado (git log --oneline).
+comman -> git config --global core.abbrev 40
+----------------------Primeros pasos en GIT (add and commits)-----------------------
 - Inicializar git.
 comman -> git init
 - Subir al area de preparación.
@@ -42,30 +46,37 @@ comman -> git diff --staged
 comman -> git log
 - Para ver data de los commits en line.
 comman -> git log --oneline
-- Para configurar que el commit en ves de mostrar 7 caracteres del indentificador
-muestre los deseados en el formato abreviado (git log --oneline).
-comman -> git config --global core.abbrev 40
 - Para comparar entre dos commits.
 comman -> git diff "commit-1" "commit-2"
 - Para que muestre los nombres de los files modificados.
 comman -> git diff --name-only "commit-1" "commit-2"
 - Para ver la diferencia entre lineas.
 comman -> git diff --word-diff "commit-1" "commit-2"
+----------------------------Update and Desacer Commits-------------------------------
 - Para modificar o remplazar ultimo commit o agragar files, hay que ponerlos en el
 area de preparación.
 comman -> git commit --amend
-- Para modificar un commit que no sea el ultimo.
+- Para modificar un commit que no sea el ultimo, el "head~n" (commit atras) nos indica
+cuantos commits atras.
 comman -> git rebase -i head~3
+- Para hacer las respectivas modificaciones o adicionar files y una ves esten en el
+area de preparación.
+comman -> git commit --amend
 - Para recuperar los commits que se eliminaron al hacer el rebase los que seguian
 en la linea del tiempo hacia adelante.
-comman git rebase --continue
-- Para deshacer commit.
+comman -> git rebase --continue
+- Para deshacer o eliminar uno o mas commits, una ves hace el cambio los files
+o cambios en código los mueve al area de preparación.
 comman -> git reset --soft "commit"
-- Para desahcer commit indicando cuantos commits atras.
+- Para desahcer o eliminar uno o mas commits indicando cuantos commits atras, una ves
+hace el cambio los files o cambios en código los mueve al area de preparación.
 comman -> git reset --soft head~2
-- Para ir a un commit.
+- Para ir a un commit, quita los files o cambios de código del area de preparación
+y los pasa al area de trabajo.
 comman -> git reset --mixed "commit"
 - Para volver a un commit, elimina los cambios del espacio de trabajo y el area de
-preparación.
+preparación, y los files que no estaban en el commit al que se esta cambiando se pasan
+al area de trabajo.
 comman -> git reset --hard "commit"
+----------------------------------Ramas (Branches)-------------------------------
  
