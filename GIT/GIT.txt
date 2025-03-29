@@ -63,4 +63,9 @@ comman git rebase --continue
 comman -> git reset --soft "commit"
 - Para desahcer commit indicando cuantos commits atras.
 comman -> git reset --soft head~2
+- Para ir a un commit.
+comman -> git reset --mixed "commit"
+- Para volver a un commit, elimina los cambios del espacio de trabajo y el area de
+preparación.
+comman -> git reset --hard "commit"
  
