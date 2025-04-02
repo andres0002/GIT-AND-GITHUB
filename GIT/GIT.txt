@@ -1,4 +1,4 @@
-Min 02:13:00 -> In Process.
+Min 02:32:00 -> In Process.
 
 ---------------------------------Configuraciones Basicas----------------------------
 - Configurar el user.name.
@@ -112,3 +112,13 @@ comman -> git reset --hard "id-commit"
  - Para continuar una ves resueltos los conflictos del merge.
  comman -> git merge --continue
 ------------------------------Git Ignore (.gitignore)------------------------
+- Es un file que se llama ".gitignore" y nos sirve para descartar o ignorar ciertos
+files y folders, al momento de tabajar con git.
+- Para configurar un .gitignore global.
+comman -> git config --global core.excludesfile ruta (example -> G:/.gitignore_global)
+-------------------------------Git Alias---------------------------------------
+- Para ponerle un alias a un comando de git y poderlo utilizar mas adelante.
+comman -> git config --global alias."name_alias" "comman sin el git al inicio"
+- Para utilizarlo.
+comman -> git "name_alias"
+-------------------------------Git Reflog--------------------------------------

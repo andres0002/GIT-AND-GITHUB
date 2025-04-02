@@ -1,0 +1,3 @@
+# comentarios en linea.
+# Para ignorar todos los files con ext "*" example -> "*.txt"
+# Para indicar que no se ignore se utiliza el "!" example -> "!file.txt"
