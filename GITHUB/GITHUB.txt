@@ -1,7 +1,37 @@
-Min 02:39:00 -> In Process.
+Min 03:32:00 -> In Process.
 
 ----------------------------Introducción a GITHUB-------------------------------
 - Definición oficial por GITHUB: GitHub es una plataforma de hosting de código
 para control de versiones y colaboración. Nos permite trabajar junto a otras
 personas en proyectos desde cualquier lugar, usando GIT.
 ------------------Crear y Configurar Repositorio Remoto---------------------
+- Min 02:46:56 hasta 02:58:23.
+----------------------------------Git Clone---------------------------------
+- Para clonar un repositorio remoto.
+comman -> git clone "HTTPS, SSH, GitHub CLI"
+----------------------------------Git Push-----------------------------------
+- Para subir los cambios al repositorio remoto.
+comman -> git push -u origin master
+---------------------------------Git Pull-------------------------------------
+- Para bajar los cambios del repositorio remoto y fucionar (merge) los cambios
+directamente.
+comman -> git pull -u origin master
+----------------------------------Git Fetch------------------------------------
+- Para bajar los cambios del repositorio remoto sin fusionar (merge) los cambios
+directamente.
+comman -> git fetch -u origin master
+- Para poder ver los cambios del repositorio remoto antes de hacer el "git pull".
+comman -> git switch --detach origin/master
+- Para bajar los cambios del repositorio remoto una ves que se ve que todo esta
+correcto se hace el "git pull".
+comman -> git pull -u origin master
+------------------------------Migrar Repositorio Local--------------------------
+- Para conectar o agregar el repositorio local al repositorio remoto.
+comman -> git remote add origin "HTTPS"
+- Para ver que se puede hacer con el repositorio remoto una ves conectado.
+comman -> git remote -v
+- Para renombrar y vincular la rama main (principal) del remoto.
+comman -> git branch -M main
+- Para asociar el repositorio remoto con el repositorio local.
+comman -> git push -u oring main
+---------------------------------Forks-------------------------------------------
