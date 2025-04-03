@@ -1,4 +1,4 @@
-Min 03:32:00 -> In Process.
+Min 04:09:00 -> In Process.
 
 ----------------------------Introducción a GITHUB-------------------------------
 - Definición oficial por GITHUB: GitHub es una plataforma de hosting de código
@@ -7,7 +7,7 @@ personas en proyectos desde cualquier lugar, usando GIT.
 ------------------Crear y Configurar Repositorio Remoto---------------------
 - Min 02:46:56 hasta 02:58:23.
 ----------------------------------Git Clone---------------------------------
-- Para clonar un repositorio remoto.
+- Para clonar un repositorio remoto en un repositorio local.
 comman -> git clone "HTTPS, SSH, GitHub CLI"
 ----------------------------------Git Push-----------------------------------
 - Para subir los cambios al repositorio remoto.
@@ -34,4 +34,39 @@ comman -> git remote -v
 comman -> git branch -M main
 - Para asociar el repositorio remoto con el repositorio local.
 comman -> git push -u oring main
----------------------------------Forks-------------------------------------------
+----------------------------Forks and Contribuciones-------------------------------
+- Para clonar un repositorio remoto en otro repositorio remoto.
+- Min 03:32:34 hasta 03:38:08.
+---------------------------------Pull Requests-----------------------------------
+- Para solicitar que acepten cambios que se hicieron en un código open source.
+- Min 03:38:08 hasta 03:47:41.
+---------------------------------Issues------------------------------------------
+- Para hacer seguimiento de tareas (mejora, bug, etc).
+- Min 03:47:41 hasta 03:52:58.
+-------------------------------Buenas Practicas en GIT---------------------------
+- Configurar el user y el email.
+- Agregar un .gitignore.
+- Crear ramas con objetivos.
+- Nombres descriptivos (kebab-case).
+- Hacer pruebas locales.
+- No trabajar en la rama main.
+- Utilizar estrategias de branching.
+- Los commits deben ser significativos.
+- Mantener actualizado el respositorio local.
+- Usar tags para commits importantes.
+- Mantener limpio el historial.
+---------------------------------Proximos Pasos-----------------------------------
+- Git Stash -> Para guardar cambios que no están comprometidos, que hay que dejar
+de trabajar en ellos por alguna razón, se ponen en un apartado separado para cuando
+se pueda proseguir con los cambios retomarlos.
+comman -> git stash
+comman -> git stash pop
+- Git Cherry-pick -> Para estrategias de fusión, para tomar un commit en especifico
+y fusionarlo a una rama.
+- Git Milestones -> Para organizar y agrupar en conjuntos de issues o pull requests.
+- Git Tags -> Para señalar momentos fijos de la historia.
+- Git Rebase and Squash -> Para tener un historial mas limpio en los commits.
+- Submodulos -> Para reposotorios dentro de repositorios.
+- Git Hooks -> Para ejecutar ciertos scripts en momentos determinados.
+- Git Bisect -> Para encontrar un commit que introdujo un bug.
+- Estrategias de branching -> GitFlow o GitHub Flow.
