@@ -1,4 +1,4 @@
-Min 02:32:00 -> In Process.
+Min 02:38:36 -> In Process.
 
 ---------------------------------Configuraciones Basicas----------------------------
 - Configurar el user.name.
@@ -122,3 +122,11 @@ comman -> git config --global alias."name_alias" "comman sin el git al inicio"
 - Para utilizarlo.
 comman -> git "name_alias"
 -------------------------------Git Reflog--------------------------------------
+- Para ver todos los lugares al que el HEAD apunto.
+comman -> git reflog
+- Para recuperar un commit que se perdio o elimino por error.
+comman -> git reset --hard "id-commit"
+----------------------------Introducción a GITHUB-------------------------------
+- Definición oficial por GITHUB: GitHub es una plataforma de hosting de código
+para control de versiones y colaboración. Nos permite trabajar junto a otras
+personas en proyectos desde cualquier lugar, usando GIT.

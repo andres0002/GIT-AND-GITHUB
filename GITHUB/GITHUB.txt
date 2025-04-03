@@ -1,1 +1,7 @@
-Min 00:00:00 -> In Process.
+Min 02:39:00 -> In Process.
+
+----------------------------Introducción a GITHUB-------------------------------
+- Definición oficial por GITHUB: GitHub es una plataforma de hosting de código
+para control de versiones y colaboración. Nos permite trabajar junto a otras
+personas en proyectos desde cualquier lugar, usando GIT.
+------------------Crear y Configurar Repositorio Remoto---------------------
