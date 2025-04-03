@@ -1,4 +1,4 @@
-Min 02:38:36 -> In Process.
+Min 02:38:36 -> Finished.
 
 ---------------------------------Configuraciones Basicas----------------------------
 - Configurar el user.name.
